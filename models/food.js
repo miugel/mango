@@ -12,6 +12,10 @@ const FoodSchema = newSchema({
     location: {
         type: Schema.Types.ObjectId,
         ref: 'Location'
+    },
+    lastUser: {
+        type: String,
+        required: true
     }
 });
 
